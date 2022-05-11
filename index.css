@@ -117,8 +117,10 @@ main section:nth-child(2) {
 
 @media (max-width: 320px) {
     .list-row div:nth-child(2) {
-        font-size: 16px;
+        font-size: 14px;
     }
+    .list-row div:first-child {
+        font-size: 14px;
 }
 
 .list-row div:last-child {
